@@ -1,0 +1,14 @@
+/* section */
+
+#image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    margin-bottom: 10%;
+  }
+  
+  img {
+    width: 300px;
+    height: 400px;
+  }
+  
